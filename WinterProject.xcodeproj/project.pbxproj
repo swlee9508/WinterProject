@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31007F623D7436C00D9CF0A /* SchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31007F523D7436C00D9CF0A /* SchoolView.swift */; };
+		A31007F823D745F500D9CF0A /* ZooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31007F723D745F500D9CF0A /* ZooView.swift */; };
+		A31007FA23D746D000D9CF0A /* AirportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31007F923D746D000D9CF0A /* AirportView.swift */; };
+		A31007FC23D746DF00D9CF0A /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31007FB23D746DF00D9CF0A /* MarketView.swift */; };
+		A31007FE23D746FF00D9CF0A /* LandMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31007FD23D746FF00D9CF0A /* LandMarkView.swift */; };
+		A315A1F023D6037500572298 /* AdvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A315A1EF23D6037500572298 /* AdvenViewController.swift */; };
 		A3283E7B23C8738500FDC3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3283E7A23C8738500FDC3AC /* AppDelegate.swift */; };
 		A3283E7D23C8738500FDC3AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3283E7C23C8738500FDC3AC /* SceneDelegate.swift */; };
 		A3283E7F23C8738500FDC3AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3283E7E23C8738500FDC3AC /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31007F523D7436C00D9CF0A /* SchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView.swift; sourceTree = "<group>"; };
+		A31007F723D745F500D9CF0A /* ZooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooView.swift; sourceTree = "<group>"; };
+		A31007F923D746D000D9CF0A /* AirportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportView.swift; sourceTree = "<group>"; };
+		A31007FB23D746DF00D9CF0A /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		A31007FD23D746FF00D9CF0A /* LandMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkView.swift; sourceTree = "<group>"; };
+		A315A1EF23D6037500572298 /* AdvenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvenViewController.swift; sourceTree = "<group>"; };
 		A3283E7723C8738500FDC3AC /* WinterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3283E7A23C8738500FDC3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3283E7C23C8738500FDC3AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +75,12 @@
 				A3283E8323C8738600FDC3AC /* Assets.xcassets */,
 				A3283E8523C8738600FDC3AC /* LaunchScreen.storyboard */,
 				A3283E8823C8738600FDC3AC /* Info.plist */,
+				A315A1EF23D6037500572298 /* AdvenViewController.swift */,
+				A31007F523D7436C00D9CF0A /* SchoolView.swift */,
+				A31007F723D745F500D9CF0A /* ZooView.swift */,
+				A31007F923D746D000D9CF0A /* AirportView.swift */,
+				A31007FB23D746DF00D9CF0A /* MarketView.swift */,
+				A31007FD23D746FF00D9CF0A /* LandMarkView.swift */,
 			);
 			path = WinterProject;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31007F623D7436C00D9CF0A /* SchoolView.swift in Sources */,
 				A3283E7F23C8738500FDC3AC /* ViewController.swift in Sources */,
+				A31007FE23D746FF00D9CF0A /* LandMarkView.swift in Sources */,
+				A31007FC23D746DF00D9CF0A /* MarketView.swift in Sources */,
+				A31007F823D745F500D9CF0A /* ZooView.swift in Sources */,
+				A315A1F023D6037500572298 /* AdvenViewController.swift in Sources */,
 				A3283E7B23C8738500FDC3AC /* AppDelegate.swift in Sources */,
 				A3283E7D23C8738500FDC3AC /* SceneDelegate.swift in Sources */,
+				A31007FA23D746D000D9CF0A /* AirportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
